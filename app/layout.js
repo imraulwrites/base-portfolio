@@ -3,6 +3,7 @@ import './globals.css';
 
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import Navmenu from './components/Navmenu';
 config.autoAddCss = false;
 
 const geistSans = Geist({
@@ -23,7 +24,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Navmenu />
+        {children}
+      </body>
     </html>
   );
 }

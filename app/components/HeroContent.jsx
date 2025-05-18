@@ -1,13 +1,6 @@
-import Image from 'next/image';
 import React from 'react';
-import HeroImg from '@/public/assets/hero-img.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { faHourglassHalf } from '@fortawesome/free-regular-svg-icons';
-
-import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-
-faHourglassHalf;
 
 function HeroContent() {
   return (

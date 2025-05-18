@@ -8,6 +8,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: #ffb400;
+  --color-grayLight: #2c2f30;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-poppins: Poppins, sans-serif;
