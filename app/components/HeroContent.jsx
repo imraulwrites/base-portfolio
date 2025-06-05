@@ -6,19 +6,19 @@ function HeroContent() {
   return (
     <div className="w-2/3 flex">
       <div className="flex flex-col max-w-[550px] items-start justify-center mx-auto">
-        <h1 className="text-accent font-poppins font-bold text-[51px] uppercase">
+        <h1 className="text-accent  font-bold text-[51px]  uppercase">
           I'm steve milner.
-          <span className="block text-white">web designer</span>
+          <span className="block font-rocksalt text-white">web developer</span>
         </h1>
-        <p className="text-lg text-left mt-6 mb-8 ">
-          I'm a Tunisian based web designer & front‑end developer focused on crafting clean &
-          user‑friendly experiences, I am passionate about building excellent software that improves
-          the lives of those around me.
+        <p className="text-lg text-left mt-6 mb-8">
+          I'm a web designer & front‑end developer focused on crafting clean & user‑friendly
+          experiences, I am passionate about building excellent software that improves the lives of
+          those around me.
         </p>
-        <div className="flex justify-between items-center gap-8 text-base uppercase pl-8 border border-accent rounded-4xl bg-transparent hover:bg-accent transition  duration-300 ease-in-out">
-          <span className="font-bold">More about me</span>
-          <span className="text-xl bg-accent rounded-full px-5 py-4">
-            <FontAwesomeIcon icon={faArrowRight} />
+        <div className="flex relative hover:bg-accent border-accent border-2 rounded-4xl items-center justify-between pl-8 gap-5">
+          <span className="">More about me</span>
+          <span className="bg-accent text-white rounded-full">
+            <FontAwesomeIcon icon={faArrowRight} className="px-5 py-4 text-2xl" />
           </span>
         </div>
       </div>
